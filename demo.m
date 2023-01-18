@@ -10,21 +10,6 @@
 %
 % CUDA is required in this version. 
 % However there is no need to install CUDA seperately since MATLAB has done all the work.
-%
-% Inputs:
-% m - membership factor
-% error - Minimum Error
-% max_iter - Maximum iterations
-% phi - Variance control parameters of Eq.(16)
-% tao - Weighting factor
-% sigm - Weighted regular parameter
-% density - Mixed noise density
-% cluster_num - Number of Clustering
-% ============== Parameters of non-local spatial information================
-% l - Side length of local block
-% S - Side length of non-local block
-% g - Attenuation of exponential function in Eqs. (10)-(11)
-% sigma - Gaussian standard deviation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Intialization
 clc
