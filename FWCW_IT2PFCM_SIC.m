@@ -18,7 +18,7 @@ O_F_old=inf;
 
 % main circulation
 while 1
-    % a) Update U_upper ºÍ U_low.
+    % a) Update U_upper ÂºÃ U_low.
     Distence1 = Distance_Function(all_pixels,all_pixels_xi,C1,gamma_y,gamma_xi,alpha,beta);
     Distence2 = Distance_Function(all_pixels,all_pixels_xi,C2,gamma_y,gamma_xi,alpha,beta);
     for j=1:k
@@ -113,7 +113,7 @@ while 1
 
     fprintf('Iteration count = %d, Termination measure value => Lower= %f    Upper=%f\n', Iter, E1(Iter),E2(Iter));
 
-    if Iter>=t_max || (E1(Iter) < 1e-6 ) && (E2(Iter) < 1e-6 )
+    if Iter>=t_max || (E1(Iter) < 1e-3 ) && (E2(Iter) < 1e-3 )
 
         fprintf('\n++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n\n');
         fprintf('Converging after %d iterations.\n',Iter);
