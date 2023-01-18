@@ -53,7 +53,7 @@ difference =exp(20*(mean(abs( mean(all_pixels)-mean(all_pixels_xi)))).^2 + eps);
 alpha = 1 ./ difference; beta = difference;
 %% Parameter settings
 k = 3 ;
-m1 = 2; m2 = 4; theta1 = 3; theta2 = 5;
+m1 = 2; m2 = 5; theta1 = 2; theta2 = 5;
 Cf=0.6; Cp=0.4; 
 K=1; 
 q=2; p=0.4; 
